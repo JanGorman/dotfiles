@@ -32,8 +32,7 @@
   lg = log -p
   cp = cherry-pick
   pu = !"git fetch origin -v; git fetch upstream -v; git merge upstream/master"
-	sr = svn rebase
-	sd = svn dcommit
+  up = "!git remote update -p; git merge --ff-only @{u}"
 [rerere]
 	enabled = 1
 [push]
