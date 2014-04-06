@@ -6,6 +6,7 @@
   pager = most +s +'/---'
   editor = vim
 	autocrlf = input
+  safecrlf = true
 	status = auto
 	quotepath = false
 [color]
